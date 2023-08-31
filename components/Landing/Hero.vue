@@ -1,5 +1,5 @@
 <template>
-  <div class="container hero-container">
+  <div class="hero-container">
     <h1>Artificial intelligence can write, but can it influence?</h1>
     <NuxtImg
       src="/logo/hero.svg"
@@ -12,6 +12,7 @@
 </template>
 <style scoped lang="postcss">
   .hero-container {
+    @apply my-20;
     @apply flex flex-col gap-y-20;
     @apply gap-x-20 lg:flex-row lg:items-end;
   }

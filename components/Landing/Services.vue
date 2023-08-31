@@ -1,6 +1,6 @@
 <template>
   <div
-    class="container my-28 border-y-2 py-12 border-dashed border-inkshrink-green"
+    class="my-20 border-y-2 py-12 border-dashed border-inkshrink-green"
     id="services"
   >
     <div class="flex flex-col lg:flex-row justify-between gap-y-12">
