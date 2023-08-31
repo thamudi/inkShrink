@@ -32,3 +32,14 @@ a:hover {
   @apply text-white;
   @apply bg-inkshrink-black;
 }
+
+::-webkit-scrollbar {
+  @apply h-1 w-1;
+}
+
+::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-thumb:hover,
+::-webkit-scrollbar-thumb:active {
+  @apply bg-inkshrink-green;
+  @apply border-spacing-3;
+}
