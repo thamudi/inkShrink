@@ -10,8 +10,8 @@ export default defineNuxtConfig({
     },
   },
   devtools: { enabled: true },
+  css: ['@/assets/css/main.css', '@/assets/css/typography.css'],
   modules: ['@nuxtjs/tailwindcss'],
-  css: ['@/assets/css/main.css'],
   postcss: {
     plugins: {
       tailwindcss: {},
