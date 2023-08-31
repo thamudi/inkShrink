@@ -1,0 +1,108 @@
+@font-face {
+  font-family: 'Balgin';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:
+    local('Balgin'),
+    url(../fonts/balgin/Balgin-Regular.ttf) format('trueType');
+}
+@font-face {
+  font-family: 'Balgin';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src:
+    local('Balgin'),
+    url(../fonts/balgin/Balgin-Regular-Italic.ttf) format('trueType');
+}
+@font-face {
+  font-family: 'Balgin';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src:
+    local('Balgin'),
+    url(../fonts/balgin/Balgin-Bold.ttf) format('trueType');
+}
+@font-face {
+  font-family: 'Balgin';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src:
+    local('Balgin'),
+    url(../fonts/balgin/Balgin-Bold-Italic.ttf) format('trueType');
+}
+@font-face {
+  font-family: 'Balgin';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src:
+    local('Balgin'),
+    url(../fonts/balgin/Balgin-Black.ttf) format('trueType');
+}
+@font-face {
+  font-family: 'Balgin';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src:
+    local('Balgin'),
+    url(../fonts/balgin/Balgin-Black-Italic.ttf) format('trueType');
+}
+@font-face {
+  font-family: 'Balgin';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src:
+    local('Balgin'),
+    url(../fonts/balgin/Balgin-Extra-Light.ttf) format('trueType');
+}
+@font-face {
+  font-family: 'Balgin';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src:
+    local('Balgin'),
+    url(../fonts/balgin/Balgin-Extra-Light-Italic.ttf) format('trueType');
+}
+@font-face {
+  font-family: 'Balgin';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src:
+    local('Balgin'),
+    url(../fonts/balgin/Balgin-Light.ttf) format('trueType');
+}
+@font-face {
+  font-family: 'Balgin';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src:
+    local('Balgin'),
+    url(../fonts/balgin/Balgin-Light-Italic.ttf) format('trueType');
+}
+@font-face {
+  font-family: 'Balgin';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src:
+    local('Balgin'),
+    url(../fonts/balgin/Balgin-Semi-Bold.ttf) format('trueType');
+}
+@font-face {
+  font-family: 'Balgin';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src:
+    local('Balgin'),
+    url(../fonts/balgin/Balgin-Semi-Bold-Italic.ttf) format('trueType');
+}

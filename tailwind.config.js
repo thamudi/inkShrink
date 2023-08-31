@@ -8,7 +8,21 @@ module.exports = {
     "./nuxt.config.{js,ts}",
   ],
   theme: {
-    extend: {},
+    container: {
+      center: true,
+      padding: '15px',
+    },
+    extend: {
+      fontFamily: {
+        balgin: 'Balgin',
+      },
+      colors: {
+        'inkshrink-green': {
+          DEFAULT: '#9ED5B7',
+        },
+        'inkshrink-black': '#231F20',
+      },
+    },
   },
   plugins: [],
 }

@@ -23,3 +23,12 @@
     @apply text-xs;
   }
 }
+
+a:hover {
+  @apply text-inkshrink-green;
+}
+
+* {
+  @apply text-white;
+  @apply bg-inkshrink-black;
+}
