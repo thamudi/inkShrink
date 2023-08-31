@@ -6,7 +6,7 @@
       alt="hero banner"
       width="550"
       height="250"
-      class=""
+      class="ml-auto mr-0"
     />
   </div>
 </template>
