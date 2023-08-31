@@ -1,3 +1,4 @@
 <template>
   <UiHeader />
+  <LandingHero />
 </template>
