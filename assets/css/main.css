@@ -28,7 +28,9 @@ a:hover {
   @apply text-inkshrink-green;
 }
 
-* {
+html,
+input,
+textarea {
   @apply text-white;
   @apply bg-inkshrink-black;
 }
