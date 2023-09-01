@@ -13,7 +13,7 @@
         />
         <div class="flex flex-col lg:items-center gap-y-5">
           <h2 class="text-xl lg:mt-10">Content Strategy</h2>
-          <p class="">Plan meaningful. cohesive. and sustainable content</p>
+          <p class="">Plan meaningful, cohesive, and sustainable content</p>
         </div>
       </div>
       <div class="flex lg:flex-col justify-start gap-x-10 items-center">
