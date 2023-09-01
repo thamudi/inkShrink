@@ -5,13 +5,13 @@
       <h2 class="text-2xl">Human-centered content</h2>
     </div>
     <div class="max-w-[90%] lg:max-w-full">
-      <div class="relative w-fit ml-auto">
+      <div class="w-fit ml-auto">
         <NuxtImg
           src="/logo/hero-pen.svg"
           alt="hero banner"
-          width="350"
+          width="150"
           height="150"
-          class="ml-auto mr-0"
+          class="ml-auto mr-0 lg:w-[350px]"
         />
         <!-- <NuxtImg
           src="/logo/hero.svg"
@@ -34,8 +34,7 @@
 <style scoped lang="postcss">
   .hero-container {
     @apply my-20;
-    @apply flex flex-col gap-y-20 justify-between;
-    @apply gap-x-20 lg:flex-row lg:items-end;
+    @apply flex flex-row gap-y-20 justify-between;
   }
 
   .spin {
