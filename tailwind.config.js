@@ -19,6 +19,7 @@ module.exports = {
       colors: {
         'inkshrink-green': {
           DEFAULT: '#9ED5B7',
+          dark:'#78a28b'
         },
         'inkshrink-black': '#231F20',
       },
