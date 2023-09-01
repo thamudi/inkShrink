@@ -5,4 +5,5 @@
     <LandingServices />
     <LandingContact />
   </div>
+  <UiFooter />
 </template>
