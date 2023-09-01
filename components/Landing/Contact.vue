@@ -107,6 +107,7 @@
     @apply font-bold;
     @apply bg-inkshrink-green;
     @apply border-none;
+    @apply font-mono;
   }
 
   #contactForm button:disabled {

@@ -5,7 +5,7 @@
       <h2 class="text-2xl">Human-centered content</h2>
     </div>
     <div class="max-w-[90%] lg:max-w-full">
-      <div class="w-fit ml-auto">
+      <div class="ml-auto">
         <NuxtImg
           src="/logo/hero-pen.svg"
           alt="hero banner"
