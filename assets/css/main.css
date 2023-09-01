@@ -28,6 +28,9 @@ a:hover {
   @apply text-inkshrink-green;
 }
 
+html {
+  @apply scroll-smooth;
+}
 html,
 input,
 textarea {
