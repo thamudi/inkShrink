@@ -5,16 +5,40 @@
   >
     <div class="flex flex-col lg:flex-row justify-between gap-y-12">
       <div class="flex lg:flex-col justify-start gap-x-10 items-center">
-        <NuxtImg src="/icons/strategy.svg" width="150" height="150" />
-        <h2 class="lg:mt-10">Strategy Writing</h2>
+        <NuxtImg
+          src="/icons/strategy.svg"
+          width="80"
+          height="80"
+          class="lg:w-[140px]"
+        />
+        <div class="flex flex-col lg:items-center gap-y-5">
+          <h2 class="text-xl lg:mt-10">Content Strategy</h2>
+          <p class="">Plan meaningful. cohesive. and sustainable content</p>
+        </div>
       </div>
       <div class="flex lg:flex-col justify-start gap-x-10 items-center">
-        <NuxtImg src="/icons/quality.svg" width="150" height="150" />
-        <h2 class="lg:mt-10">Quality Writing</h2>
+        <NuxtImg
+          src="/icons/quality.svg"
+          width="80"
+          height="80"
+          class="lg:w-[140px]"
+        />
+        <div class="flex flex-col lg:items-center gap-y-5">
+          <h2 class="text-xl lg:mt-10">Content Writing</h2>
+          <p class="">Create engaging and succinct written remedies</p>
+        </div>
       </div>
       <div class="flex lg:flex-col justify-start gap-x-10 items-center">
-        <NuxtImg src="/icons/proofreading.svg" width="150" height="150" />
-        <h2 class="lg:mt-10">Proofreading</h2>
+        <NuxtImg
+          src="/icons/proofreading.svg"
+          width="80"
+          height="80"
+          class="lg:w-[140px]"
+        />
+        <div class="flex flex-col lg:items-center gap-y-5">
+          <h2 class="text-xl lg:mt-10">Proofreading</h2>
+          <p class="">Ensure flawless and crystal clear delivery</p>
+        </div>
       </div>
     </div>
   </div>
