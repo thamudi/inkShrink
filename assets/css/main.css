@@ -26,6 +26,8 @@
 
 a:hover {
   @apply text-inkshrink-green;
+  text-shadow: 1px 1px 5px;
+  @apply shadow-inkshrink-green;
 }
 
 html {
@@ -38,6 +40,23 @@ textarea {
   @apply bg-inkshrink-black;
 }
 
+.loader {
+  @apply h-20 w-20;
+  @apply border-[15px]
+  border-solid border-white;
+  @apply border-t-inkshrink-green border-t-[15px] border-solid;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+}
+
 ::-webkit-scrollbar {
   @apply h-1 w-1;
 }
@@ -47,4 +66,5 @@ textarea {
 ::-webkit-scrollbar-thumb:active {
   @apply bg-inkshrink-green;
   @apply border-spacing-3;
+  @apply shadow-inkshrink-green;
 }

@@ -36,7 +36,10 @@
           placeholder="Message"
         ></textarea>
 
-        <button :disabled="disabled" type="submit">Submit</button>
+        <button v-if="!disabled" :disabled="disabled" type="submit">
+          Submit
+        </button>
+        <div v-else="disabled" class="loader my-8"></div>
       </form>
     </div>
   </div>
@@ -103,6 +106,7 @@
     @apply w-60;
     @apply font-bold;
     @apply bg-inkshrink-green;
+    @apply border-none;
   }
 
   #contactForm button:disabled {
