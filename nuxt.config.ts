@@ -11,11 +11,18 @@ export default defineNuxtConfig({
   },
   devtools: { enabled: true },
   css: ['@/assets/css/main.css', '@/assets/css/typography.css'],
-  modules: ['@nuxtjs/tailwindcss', '@nuxt/image'],
+  modules: ['@nuxtjs/tailwindcss', '@element-plus/nuxt', '@nuxt/image'],
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
     },
+  },
+  runtimeConfig: {
+    smtpPort: '',
+    smtpEmail: '',
+    smtpPass: '',
+    smtpHost: '',
+    mailTo: '',
   },
 })
