@@ -6,5 +6,4 @@
     <LandingContact />
   </div>
   <UiFooter />
-  <UiBackToTop />
 </template>

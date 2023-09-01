@@ -34,6 +34,9 @@ html {
   @apply scroll-smooth;
   @apply overflow-x-hidden;
 }
+* {
+  @apply font-balgin font-extralight;
+}
 html,
 input,
 textarea {
