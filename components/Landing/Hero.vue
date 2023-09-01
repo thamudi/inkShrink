@@ -1,6 +1,9 @@
 <template>
   <div class="hero-container">
-    <h1>Artificial intelligence can write, but can it influence?</h1>
+    <div class="flex flex-col gap-y-10">
+      <h1>Custom words for your business</h1>
+      <h2>Human-centered content</h2>
+    </div>
     <div class="max-w-[90%] lg:max-w-full">
       <div class="relative w-fit ml-auto">
         <NuxtImg
@@ -25,7 +28,7 @@
 <style scoped lang="postcss">
   .hero-container {
     @apply my-20;
-    @apply flex flex-col gap-y-20;
+    @apply flex flex-col gap-y-20 justify-between;
     @apply gap-x-20 lg:flex-row lg:items-end;
   }
 
