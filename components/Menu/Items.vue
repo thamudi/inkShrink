@@ -4,7 +4,7 @@
     :id="`nav-items-${index}`"
     class="items-container"
   >
-    <NuxtLink :to="linkItem.link"> {{ linkItem.label }} </NuxtLink>
+    <a :href="linkItem.link"> {{ linkItem.label }} </a>
   </span>
 </template>
 <script setup>

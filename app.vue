@@ -1,5 +1,8 @@
 <template>
-  <UiHeader />
-  <LandingHero />
-  <LandingServices />
+  <div class="container">
+    <UiHeader />
+    <LandingHero />
+    <LandingServices />
+    <LandingContact />
+  </div>
 </template>
