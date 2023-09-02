@@ -8,7 +8,11 @@
       </NuxtLink>
       <p>©{{ new Date().getFullYear() }} All rights reserved</p>
     </div>
-    <span class="ml-auto">info@inkshrink.co</span>
+    <span class="ml-auto"
+      ><a href="mailto:info@inkshrink.co" class="active"
+        >info@inkshrink.co</a
+      ></span
+    >
   </footer>
 </template>
 <script setup></script>
