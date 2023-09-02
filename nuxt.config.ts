@@ -18,6 +18,9 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  nitro: {
+    preset: 'vercel',
+  },
   runtimeConfig: {
     smtpPort: '',
     smtpEmail: '',
