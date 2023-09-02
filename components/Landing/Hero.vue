@@ -7,7 +7,7 @@
     <div class="max-w-[90%] lg:max-w-full">
       <div class="ml-auto">
         <NuxtImg
-          src="/logo/hero-pen.svg"
+          src="/logo/hero-pen-no-blur.svg"
           alt="hero banner"
           width="150"
           height="150"
